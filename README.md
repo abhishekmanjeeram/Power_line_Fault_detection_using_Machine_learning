@@ -16,11 +16,11 @@ Number of Layers: N/A (Random Forests do not have layers in the same sense as ne
 Epochs: N/A (Random Forests are not trained iteratively like neural networks)
 Model Efficiency: This would be the performance metrics of your model such as accuracy, precision, recall, F1-score, etc. on your validation/test set. You would fill in these details based on the results of your model evaluation.
 ### Files in this Repository
-model.py: This file contains the code for creating the Random Forest model.
-train.py: This file contains the code for training the model on the dataset.
-validate.py: This file contains the code for validating the model on a test set.
-main.py: This file contains the code for making predictions on new data.
+* model.py: This file contains the code for creating the Random Forest model.
+* train.py: This file contains the code for training the model on the dataset.
+* validate.py: This file contains the code for validating the model on a test set.
+* main.py: This file contains the code for making predictions on new data.
 ## How to Use
-Run train.py to train the model. This will create a file model.pkl which is the trained model.
-Run validate.py to validate the model on a test set.
-Run main.py to use the trained model to make predictions on new data.
+* Run train.py to train the model. This will create a file model.pkl which is the trained model.
+* Run validate.py to validate the model on a test set.
+* Run main.py to use the trained model to make predictions on new data.
