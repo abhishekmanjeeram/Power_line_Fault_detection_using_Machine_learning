@@ -11,10 +11,10 @@ The model used in this project is a Random Forest Classifier from the Scikit-lea
 Here are some details about the model and its training process:
 
 ### Model: Random Forest Classifier
-Number of Estimators: 100 (default)
-Number of Layers: N/A (Random Forests do not have layers in the same sense as neural networks)
-Epochs: N/A (Random Forests are not trained iteratively like neural networks)
-Model Efficiency: This would be the performance metrics of your model such as accuracy, precision, recall, F1-score, etc. on your validation/test set. You would fill in these details based on the results of your model evaluation.
+* Number of Estimators: 100 
+* Number of Layers: N/A (Random Forests do not have layers in the same sense as neural networks)
+* Epochs: N/A (Random Forests are not trained iteratively like neural networks)
+* Model Efficiency: Upon training the model, with the dataset, we got a decent performance prediction of 86.73%.
 ### Files in this Repository
 * model.py: This file contains the code for creating the Random Forest model.
 * train.py: This file contains the code for training the model on the dataset.
